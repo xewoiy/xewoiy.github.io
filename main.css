@@ -1,0 +1,27 @@
+#main {
+    background: hsl(0, 0%, 5%);
+    padding: 0 24px;
+    margin: 0;
+    height: 100vh;
+    color: white;
+    display: flex;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+    animation-name: Appearance;
+    animation-duration: 2s;
+}
+
+@keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+* {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
